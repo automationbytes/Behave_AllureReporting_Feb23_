@@ -1,0 +1,129 @@
+1676090029201	geckodriver	INFO	Listening on 127.0.0.1:51095
+1676090032283	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51096" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilej3LhGh"
+1676090032806	Marionette	INFO	Marionette enabled
+1676090032814	Marionette	INFO	Listening on port 51117
+Read port: 51117
+WebDriver BiDi listening on ws://127.0.0.1:51096
+1676090033058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilej3LhGh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51096/devtools/browser/839cc998-e4ce-4a30-a8b1-7c700097993d
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1676090117322	geckodriver	INFO	Listening on 127.0.0.1:51265
+1676090120377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51266" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilemFzf6x"
+1676090120806	Marionette	INFO	Marionette enabled
+1676090120811	Marionette	INFO	Listening on port 51282
+Read port: 51282
+WebDriver BiDi listening on ws://127.0.0.1:51266
+1676090121014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilemFzf6x\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51266/devtools/browser/bcaa36f9-cc7a-4c62-b723-39571c2daceb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676090207551	geckodriver	INFO	Listening on 127.0.0.1:51562
+1676090210612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilet3R29C"
+1676090211040	Marionette	INFO	Marionette enabled
+1676090211047	Marionette	INFO	Listening on port 51575
+Read port: 51575
+WebDriver BiDi listening on ws://127.0.0.1:51563
+1676090211274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilet3R29C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51563/devtools/browser/33218069-d7fc-453c-b8a0-7d1e7c7fbec6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676090534850	geckodriver	INFO	Listening on 127.0.0.1:52086
+1676090537914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilevLC8AO"
+1676090538327	Marionette	INFO	Marionette enabled
+1676090538333	Marionette	INFO	Listening on port 52102
+Read port: 52102
+WebDriver BiDi listening on ws://127.0.0.1:52087
+1676090538540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilevLC8AO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52087/devtools/browser/b156aa14-326a-4e46-ba93-b0399998e3bc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676090677069	geckodriver	INFO	Listening on 127.0.0.1:52436
+1676090680130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofile5O05ie"
+1676090680546	Marionette	INFO	Marionette enabled
+1676090680552	Marionette	INFO	Listening on port 52452
+Read port: 52452
+WebDriver BiDi listening on ws://127.0.0.1:52437
+1676090680761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofile5O05ie\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52437/devtools/browser/affb26b8-1981-4c2a-ac8f-b3194b7873cc
+1676090820767	geckodriver	INFO	Listening on 127.0.0.1:52707
+1676090823844	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52708" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileiLnZCB"
+1676090824266	Marionette	INFO	Marionette enabled
+1676090824273	Marionette	INFO	Listening on port 52722
+Read port: 52722
+WebDriver BiDi listening on ws://127.0.0.1:52708
+1676090824505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileiLnZCB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52708/devtools/browser/88cdbbbd-ff82-47b2-b5b4-abb557bd0feb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676091029833	geckodriver	INFO	Listening on 127.0.0.1:53059
+1676091032898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53060" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilewB4NW1"
+1676091033309	Marionette	INFO	Marionette enabled
+1676091033316	Marionette	INFO	Listening on port 53076
+Read port: 53076
+WebDriver BiDi listening on ws://127.0.0.1:53060
+1676091033533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilewB4NW1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53060/devtools/browser/ce19413c-80ce-4e54-a915-fa5a75318260
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676091111862	geckodriver	INFO	Listening on 127.0.0.1:53268
+1676091114934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53269" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileXWugoZ"
+1676091115345	Marionette	INFO	Marionette enabled
+1676091115351	Marionette	INFO	Listening on port 53290
+Read port: 53290
+WebDriver BiDi listening on ws://127.0.0.1:53269
+1676091115563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileXWugoZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53269/devtools/browser/d1f48d77-c7bd-4b20-80cd-4f110f117944
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676091156265	geckodriver	INFO	Listening on 127.0.0.1:53441
+1676091159316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53442" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileSmGsN9"
+1676091159737	Marionette	INFO	Marionette enabled
+1676091159744	Marionette	INFO	Listening on port 53456
+Read port: 53456
+WebDriver BiDi listening on ws://127.0.0.1:53442
+1676091159979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileSmGsN9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53442/devtools/browser/8d053215-664d-4653-9475-ba29b99ae6e1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1676091985240	geckodriver	INFO	Listening on 127.0.0.1:54504
+1676091988288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilehRO6VI"
+1676091988707	Marionette	INFO	Marionette enabled
+1676091988719	Marionette	INFO	Listening on port 54519
+Read port: 54519
+WebDriver BiDi listening on ws://127.0.0.1:54505
+1676091988936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilehRO6VI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54505/devtools/browser/3df89ded-99c3-444a-b8cb-c6527204a9dc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676092021771	geckodriver	INFO	Listening on 127.0.0.1:54666
+1676092024819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileT8FQPu"
+1676092025247	Marionette	INFO	Marionette enabled
+1676092025253	Marionette	INFO	Listening on port 54683
+Read port: 54683
+WebDriver BiDi listening on ws://127.0.0.1:54667
+1676092025464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileT8FQPu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54667/devtools/browser/7c0515d3-a9c8-4b3a-8cbf-2f7ffe10b56f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1676092468744	geckodriver	INFO	Listening on 127.0.0.1:55504
+1676092471788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileVqeR5C"
+1676092472239	Marionette	INFO	Marionette enabled
+1676092472245	Marionette	INFO	Listening on port 55518
+Read port: 55518
+WebDriver BiDi listening on ws://127.0.0.1:55505
+1676092472452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileVqeR5C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55505/devtools/browser/b5076511-acb4-4bc2-9e82-822d7e4ea885
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
