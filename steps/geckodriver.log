@@ -8,3 +8,4 @@ WebDriver BiDi listening on ws://127.0.0.1:51454
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileSJo98M\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:51454/devtools/browser/c877baf5-bd41-4d30-b6c3-5727cd68534b
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1676122788378	Marionette	INFO	Stopped listening on port 51468

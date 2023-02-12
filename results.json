@@ -1,0 +1,172 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "FeaturesFiles/AddCart.feature:4",
+      "name": "Login",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/AddCart.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:17"
+          },
+          "name": "the user launches the application",
+          "result": {
+            "duration": 0.7126832008361816,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/AddCart.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:22"
+          },
+          "name": "the user verifies the logo",
+          "result": {
+            "duration": 0.07183361053466797,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/AddCart.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:28"
+          },
+          "name": "the user enters valid credentials",
+          "result": {
+            "duration": 0.6968569755554199,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "Regression",
+        "Sanity"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "FeaturesFiles/AddCart.feature:9",
+      "name": "Filter by High to Low",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/AddCart.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:36"
+          },
+          "name": "the user verifies the homepage logo",
+          "result": {
+            "duration": 0.08679056167602539,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\Vigne\\PycharmProjects\\Behave_Feb23\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\Vigne\\PycharmProjects\\Behave_Feb23\\venv\\lib\\site-packages\\behave\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"steps\\StepDefn.py\", line 40, in the_user_verifies_the_homepage_logo",
+              "    assert logo.is_displayed() is False",
+              "AssertionError"
+            ],
+            "status": "failed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/AddCart.feature:11",
+          "name": "the user filters high to low",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "Regression"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "FeaturesFiles/AddCart.feature:13",
+      "name": "Filter by Low to High",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/AddCart.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:36"
+          },
+          "name": "the user verifies the homepage logo",
+          "result": {
+            "duration": 0.027886629104614258,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\Vigne\\PycharmProjects\\Behave_Feb23\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\Vigne\\PycharmProjects\\Behave_Feb23\\venv\\lib\\site-packages\\behave\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"steps\\StepDefn.py\", line 40, in the_user_verifies_the_homepage_logo",
+              "    assert logo.is_displayed() is False",
+              "AssertionError"
+            ],
+            "status": "failed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/AddCart.feature:15",
+          "name": "the user filters low to high",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "Sanity"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "FeaturesFiles/AddCart.feature:17",
+      "name": "Find highest product and place the order",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/AddCart.feature:18",
+          "name": "the user verifies the homepage logo",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/AddCart.feature:19",
+          "name": "the user clicks on Add to cart button",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "FeaturesFiles/AddCart.feature:1",
+  "name": "Add to Cart",
+  "status": "failed",
+  "tags": []
+}
+]

@@ -1,7 +1,27 @@
 import allure
+from selenium import webdriver
+from castro import Castro
 
+
+def before_all(context):
+    print("Before All")
+
+
+def before_scenario(context, scenario):
+    print("Before Scenario")
+    c = Castro()
+    c.start()
+
+def after_scenario(context, scenario):
+    print("After Scenario")
+    c = Castro()
+    c.stop()
 
 def after_step(context,step):
+    allure.attach(context.driver.get_screenshot_as_png(), name=step.name,
+                  attachment_type=allure.attachment_type.PNG)
     if step.status == "failed":
-        allure.attach(context.driver.get_screenshot_as_file(), name=step.name,
-                      attachment_type=allure.attachment_type.PNG)
+        print("fail")
+        context.driver.get_screenshot_as_png()
+        context.driver.get_screenshot_as_file(step.name+".png")
+
