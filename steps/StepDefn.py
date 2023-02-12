@@ -65,3 +65,23 @@ def step_impl(context):
 def Capture_Screensht(context):
     context.driver = driver
     allure.attach(context.driver.get_screenshot_as_file(),name=step.name,attachment_type=allure.attachment_type.PNG)
+
+
+@when(u'the user enters "{username}" in username field')
+def enter_username(context,username):
+    context.driver = driver
+    lp.enterUserName(username)
+
+
+
+@then(u'the user enters "{password}" in password field')
+def step_impl(context,password):
+    context.driver = driver
+    lp.enterPassWord(password)
+
+
+@then(u'the user clicks on login button')
+def step_impl(context):
+    context.driver = driver
+    lp.clickLogin()
+

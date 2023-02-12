@@ -8,7 +8,7 @@ if __name__ == '__main__':
     FeatureFilePath = "FeaturesFiles"
     Tags = " --tags=Regression,Sanity"
     AllureReportPath = " -f allure_behave.formatter:AllureFormatter -o Reports"
-    BehaveOptions = ' --color --summary --verbose'
+    BehaveOptions = ' -f html-pretty -o behave-report.html --color --summary --verbose'
     run = FeatureFilePath+Tags+AllureReportPath+BehaveOptions
     runner.main(run)
 

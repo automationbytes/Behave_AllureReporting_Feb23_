@@ -16,7 +16,7 @@
           },
           "name": "the user launches the application",
           "result": {
-            "duration": 0.7126832008361816,
+            "duration": 0.7276678085327148,
             "status": "passed"
           },
           "step_type": "given"
@@ -30,7 +30,7 @@
           },
           "name": "the user verifies the logo",
           "result": {
-            "duration": 0.07183361053466797,
+            "duration": 0.05326676368713379,
             "status": "passed"
           },
           "step_type": "when"
@@ -44,7 +44,7 @@
           },
           "name": "the user enters valid credentials",
           "result": {
-            "duration": 0.6968569755554199,
+            "duration": 0.5991315841674805,
             "status": "passed"
           },
           "step_type": "then"
@@ -71,7 +71,7 @@
           },
           "name": "the user verifies the homepage logo",
           "result": {
-            "duration": 0.08679056167602539,
+            "duration": 0.03824138641357422,
             "error_message": [
               "Traceback (most recent call last):",
               "  File \"C:\\Users\\Vigne\\PycharmProjects\\Behave_Feb23\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
@@ -113,7 +113,7 @@
           },
           "name": "the user verifies the homepage logo",
           "result": {
-            "duration": 0.027886629104614258,
+            "duration": 0.04229116439819336,
             "error_message": [
               "Traceback (most recent call last):",
               "  File \"C:\\Users\\Vigne\\PycharmProjects\\Behave_Feb23\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
@@ -168,5 +168,377 @@
   "name": "Add to Cart",
   "status": "failed",
   "tags": []
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/ScenarioOutline.feature:16",
+      "name": "Sauce Labs Difff login -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/ScenarioOutline.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:17"
+          },
+          "name": "the user launches the application",
+          "result": {
+            "duration": 0.2618143558502197,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:22"
+          },
+          "name": "the user verifies the logo",
+          "result": {
+            "duration": 0.04734182357788086,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "standard_user"
+              }
+            ],
+            "location": "steps/StepDefn.py:70"
+          },
+          "name": "the user enters \"standard_user\" in username field",
+          "result": {
+            "duration": 0.08610844612121582,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/ScenarioOutline.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "secret_sauce"
+              }
+            ],
+            "location": "steps/StepDefn.py:77"
+          },
+          "name": "the user enters \"secret_sauce\" in password field",
+          "result": {
+            "duration": 0.09680843353271484,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/ScenarioOutline.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:83"
+          },
+          "name": "the user clicks on login button",
+          "result": {
+            "duration": 0.29177308082580566,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/ScenarioOutline.feature:17",
+      "name": "Sauce Labs Difff login -- @1.2 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/ScenarioOutline.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:17"
+          },
+          "name": "the user launches the application",
+          "result": {
+            "duration": 0.3331797122955322,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:22"
+          },
+          "name": "the user verifies the logo",
+          "result": {
+            "duration": 0.038945913314819336,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "locked_out_user"
+              }
+            ],
+            "location": "steps/StepDefn.py:70"
+          },
+          "name": "the user enters \"locked_out_user\" in username field",
+          "result": {
+            "duration": 0.08230423927307129,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/ScenarioOutline.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "secret_sauce"
+              }
+            ],
+            "location": "steps/StepDefn.py:77"
+          },
+          "name": "the user enters \"secret_sauce\" in password field",
+          "result": {
+            "duration": 0.053144216537475586,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/ScenarioOutline.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:83"
+          },
+          "name": "the user clicks on login button",
+          "result": {
+            "duration": 0.2681255340576172,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/ScenarioOutline.feature:18",
+      "name": "Sauce Labs Difff login -- @1.3 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/ScenarioOutline.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:17"
+          },
+          "name": "the user launches the application",
+          "result": {
+            "duration": 0.22563934326171875,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:22"
+          },
+          "name": "the user verifies the logo",
+          "result": {
+            "duration": 0.0438380241394043,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "problem_user"
+              }
+            ],
+            "location": "steps/StepDefn.py:70"
+          },
+          "name": "the user enters \"problem_user\" in username field",
+          "result": {
+            "duration": 0.07365942001342773,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/ScenarioOutline.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "secret_sauce"
+              }
+            ],
+            "location": "steps/StepDefn.py:77"
+          },
+          "name": "the user enters \"secret_sauce\" in password field",
+          "result": {
+            "duration": 0.05370330810546875,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/ScenarioOutline.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:83"
+          },
+          "name": "the user clicks on login button",
+          "result": {
+            "duration": 0.27075815200805664,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/ScenarioOutline.feature:19",
+      "name": "Sauce Labs Difff login -- @1.4 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/ScenarioOutline.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:17"
+          },
+          "name": "the user launches the application",
+          "result": {
+            "duration": 0.24041295051574707,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:22"
+          },
+          "name": "the user verifies the logo",
+          "result": {
+            "duration": 0.03393816947937012,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/ScenarioOutline.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "performance_glitch_user"
+              }
+            ],
+            "location": "steps/StepDefn.py:70"
+          },
+          "name": "the user enters \"performance_glitch_user\" in username field",
+          "result": {
+            "duration": 0.10976648330688477,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/ScenarioOutline.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "secret_sauce"
+              }
+            ],
+            "location": "steps/StepDefn.py:77"
+          },
+          "name": "the user enters \"secret_sauce\" in password field",
+          "result": {
+            "duration": 0.053917884826660156,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/ScenarioOutline.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:83"
+          },
+          "name": "the user clicks on login button",
+          "result": {
+            "duration": 5.2713258266448975,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "FeaturesFiles/ScenarioOutline.feature:3",
+  "name": "An example of Scenario Outline with Examples",
+  "status": "passed",
+  "tags": [
+    "Regression"
+  ]
 }
 ]

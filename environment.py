@@ -1,6 +1,6 @@
 import allure
 from selenium import webdriver
-from castro import Castro
+# from castro import Castro
 
 
 def before_all(context):
@@ -9,13 +9,13 @@ def before_all(context):
 
 def before_scenario(context, scenario):
     print("Before Scenario")
-    c = Castro()
-    c.start()
+    # c = Castro()
+    # c.start()
 
 def after_scenario(context, scenario):
     print("After Scenario")
-    c = Castro()
-    c.stop()
+    # c = Castro()
+    # c.stop()
 
 def after_step(context,step):
     allure.attach(context.driver.get_screenshot_as_png(), name=step.name,
